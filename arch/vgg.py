@@ -11,7 +11,7 @@ class VGG16(models.Model):
 
 		:param input_shape: [32, 32, 3]
 		"""
-		super(self).__init__()
+		super(VGG16, self).__init__()
 
 		weight_decay = 0.000
 		self.num_classes = 5

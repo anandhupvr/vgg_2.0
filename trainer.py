@@ -35,5 +35,5 @@ for i in range(100):
 		if _ % 40 == 0:
 			print (i, _, 'loss : ', float(loss), 'acc :', metric.result().numpy())
 			metric.reset_states()
-
-model.save('weights/mode.h5')
+	if i % 20 == 0
+		model.save('weights/mode_%s.h5'$(i))
